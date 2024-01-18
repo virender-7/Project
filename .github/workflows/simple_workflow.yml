@@ -12,8 +12,9 @@ jobs:
       - name: printworld
         run : |
           echo "Hellow World!"
+          echo "list of file and folder in current directory"
           ls -ltra
-          echo "completed running simple work flow"
+          echo "completed run for Printworld"
   
   
   

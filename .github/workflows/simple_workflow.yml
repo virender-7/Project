@@ -15,7 +15,17 @@ jobs:
           echo "list of file and folder in current directory"
           ls -ltra
           echo "completed run for Printworld"
-  
+
+  Secondbuild:
+    runs-on: windows-latest
+    steps:
+      - name: Printcmd
+        run: |
+          echo "CMD"
+          echo "%homepath%"
+          dir
+          echo "completed the secondbuild"
+          
   
   
   

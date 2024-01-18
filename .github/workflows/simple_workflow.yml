@@ -10,8 +10,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: printworld
-        run : echo "Hellow World!"
-        run : echo "completed running simple work flow"
+        run : |
+          echo "Hellow World!"
+          ls -ltra
+          echo "completed running simple work flow"
   
   
   

@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: 
       - main
+      - PR_Modify
 
 jobs: 
   Firstbuild:
@@ -26,6 +27,7 @@ jobs:
         shell: cmd
         run: |
           echo "CMD"
+          hostname
           echo %homepath%
           dir
           echo "completed the secondbuild"

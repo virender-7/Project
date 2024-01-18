@@ -1,11 +1,8 @@
 name: Simpleworkflow
 
 on: 
-  pull_request:
-    branches: 
-      - main
   schedule:
-    - cron: '36 8 * * *'
+    - cron: '45 8 * * *'
 
 jobs: 
   Firstbuild:

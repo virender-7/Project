@@ -11,7 +11,7 @@ jobs:
 
       - name: printworld
         run : echo "Hellow World!"
-              echo "completed running simple work flow"
+        run : echo "completed running simple work flow"
   
   
   

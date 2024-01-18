@@ -23,6 +23,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Printcmd
+        shell: cmd
         run: |
           echo "CMD"
           echo %homepath%

@@ -19,6 +19,7 @@ jobs:
         run : |
           echo "Hellow World!"
           echo "list of file and folder in current directory"
+          pwd
           ls -ltra
           echo "completed run for Printworld"
 
